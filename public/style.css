@@ -1,0 +1,131 @@
+body {
+    background-color: #f2f3f7;
+    font-family:  Helvetica, Tahoma, Arial, "Microsoft YaHei";
+}
+.main {
+    min-width: 300px;
+}
+
+
+.font10 {
+    font-size: 0.7rem;
+}
+
+.font12 {
+    font-size: 0.8rem;
+}
+
+.font14 {
+    font-size: 0.9rem;
+}
+
+
+.bg-orange {
+    background-color: rgb(255, 102, 0);
+}
+
+.zindx {
+    z-index: 1;
+}
+
+.bg-apparel {
+    background-image: url(images/APPAREL.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 320px;
+}
+
+.bg-garden {
+    background-image: url(images/All\ things\ home.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 320px;
+}
+
+.bg-weeklydeals {
+    background-image: url(images/Weekly\ deals\ cont.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+}
+
+
+.bg-livestream {
+    background-image: url(images/ALIBABA.COM\ LIVESTREAMS.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.bg-smallcommodities {
+    background-image: url(images/SMALL\ COMMODITIES\ MARKETPLACE.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.inputremoveshadow:focus {
+    box-shadow: none;
+    }
+
+.linkdecnone {
+    text-decoration: none;
+
+}
+
+.hovershadow:hover {
+ box-shadow: 1px 1px 10px -1px #888888;
+ cursor: pointer;
+}
+
+.hoverlinkdec:hover {
+    text-decoration: underline black;
+}
+
+
+.bg-payment {
+    background-image: url(images/Payment.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 180px;
+   
+}
+
+.img--overlay {
+    position: absolute;
+    min-height: 180px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    
+}
+
+.tradeissurancecard:hover .img--overlay {
+    display: block;
+}
+
+.hoverlist {
+   list-style-type: circle;
+   list-style-position: inside; 
+}
+
+.learnm:hover {
+    text-decoration: underline white;
+}
+
+.bg-grey {
+    background-color: #445268;
+}
+
+.border-orange {
+    border: 2px solid rgb(255, 102, 0);
+}
+
+
+.golden {
+    color: #F2CB8E;
+}
+
+.bg-golden {
+    background-color: #F2CB8E;
+}
